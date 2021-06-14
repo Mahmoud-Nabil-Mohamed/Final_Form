@@ -407,3 +407,8 @@ tr:hover {
         width: 90%;
     }
 }
+@media all and (max-height:660px) {
+    .back-ground {
+        height: 900vh;
+    }
+}
