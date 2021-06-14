@@ -322,7 +322,7 @@ h1 {
         width: 90%;
     }
     .back-ground {
-        height: 700vh;
+        height: 900vh;
     }
 }
 @media all and (max-height:660px) {
