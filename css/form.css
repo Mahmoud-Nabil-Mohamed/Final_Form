@@ -1,0 +1,293 @@
+body {
+    font-family: 'Noto Sans SC', sans-serif;
+    margin: 0px;
+    background-color: #f1f1f1ff;
+}
+
+.full {
+    background-color: rgb(108, 108, 182);
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    position: relative;
+    border-radius: 60px;
+    z-index: 5;
+}
+
+caption {
+    margin-left: 90px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 30px;
+}
+
+tr {
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    /* border-spacing: 10px; */
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.s input {
+    margin-left: 50px;
+}
+
+.s input:hover {
+    background-color: #0077ff;
+    color: #fff;
+}
+
+.txt {
+    text-align: center;
+    font-family: 'Droid Serif', sans-serif;
+    color: #fff;
+}
+
+.txt h1 {
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px;
+}
+
+.form_11 {
+    padding: 10px;
+}
+
+.checked-link {
+    background-color: #fd7e14;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.links {
+    padding: 10px 10px 10px 10px;
+}
+
+.nav a,
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.links:hover {
+    background-color: #fd7e14;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu {
+    background-color: #f1f1f1;
+    font-size: large;
+    text-align: center;
+    border: 2px solid rgb(153, 151, 151);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    opacity: .9;
+    z-index: 3;
+}
+
+a {
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 58%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.back-ground {
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    background-image: url(sign_2.jpg);
+    z-index: 1;
+    top: 0;
+    background-blend-mode: darken;
+    filter: brightness(50%);
+}
+
+.txt_face {
+    color: #fff;
+    position: absolute;
+    top: 300px;
+    z-index: 5;
+    left: 8%;
+    font-size: 64px;
+    font-weight: 500;
+    opacity: 1;
+    font-family: 'Rubik', sans-serif;
+    transition: .5s;
+}
+
+.checked_link {
+    background-color: #fd7e14;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* Responsive */
+
+@media all and (max-width:1326px) {
+    li {
+        margin-left: 40px;
+    }
+    .menu {
+        margin-bottom: 15px;
+    }
+}
+
+@media all and (max-width:990px) {
+    li {
+        margin-left: 20px;
+        padding: 4px;
+    }
+    .links {
+        padding: 5px;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+    .nav {
+        margin-top: 4px;
+    }
+}
+
+@media all and (min-width: 668px) and (max-width: 778px) {
+    li {
+        margin-left: 7px;
+        padding: 3px;
+        margin-top: 9px;
+    }
+    .links {
+        padding: 3px;
+    }
+    .menu {
+        font-size: small;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media (max-width:734px) {
+    li {
+        padding: 3px;
+    }
+    .logo img {
+        width: 100%;
+        margin-top: 19px;
+    }
+    .logo {
+        width: 50px;
+    }
+}
+
+@media all and (max-width: 667px) {
+    .menu {
+        font-size: 4px;
+    }
+    li {
+        margin: 0px;
+        padding: 2px;
+    }
+    .links {
+        padding: 1px;
+    }
+    .checked_link {
+        padding: 4px;
+    }
+    .logo img {
+        width: 80%;
+        position: relative;
+        left: -2px;
+        margin-top: -3px;
+    }
+    .logo {
+        width: 80px;
+    }
+    .nav {
+        top: 5px;
+        position: relative;
+        left: -40px;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .menu {
+        font-size: 2px;
+    }
+    li {
+        margin: 0px;
+        padding: 0px;
+    }
+    .links {
+        padding: 1px;
+    }
+    .checked_link {
+        padding: 3px;
+    }
+    .logo img {
+        width: 80%;
+        position: relative;
+        left: -2px;
+        margin-top: 1px;
+    }
+    .logo {
+        width: 60px;
+    }
+    .nav {
+        top: 6.5px;
+        position: relative;
+        left: -40px;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+
+/* End */

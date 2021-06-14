@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: whitesmoke;
+    color: #f1f1f1;
+}
+
+.logo {
+    width: 150px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+.links {
+    padding: 10px 10px 10px 10px;
+}
+
+.nav a,
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+
+.links:hover {
+    background-color: #fd7e14;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu {
+    background-color: #f1f1f1;
+    font-size: large;
+    text-align: center;
+    border: 2px solid rgb(153, 151, 151);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    padding: 5px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    opacity: .9;
+    z-index: 3;
+}
+
+a {
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 58%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.checked_link {
+    background-color: #fd7e14;
+    color: #fff;
+    padding: 10px;
+}
+
+.back-ground {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .5)url(../Contact_1.jpg);
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    background-blend-mode: darken;
+}
+
+
+/* contact formm */
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container_11 {
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: 8;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    z-index: 8;
+}
+
+p {
+    font-size: larger;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 8;
+}
+
+
+/* Responsive  */
+
+@media all and (max-width:1326px) {
+    li {
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width:948px) {
+    li {
+        margin-left: 20px;
+        padding: 4px;
+    }
+    .links {
+        padding: 5px;
+    }
+    .logo img {
+        width: 50%;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media all and (min-width: 668px) and (max-width: 778px) {
+    li {
+        margin-left: 8px;
+        padding: 4px;
+        margin-top: 9px;
+    }
+    .links {
+        padding: 3px;
+    }
+    .menu {
+        font-size: small;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media all and (max-width: 667px) {
+    .menu {
+        font-size: 4px;
+    }
+    li {
+        margin: 0px;
+        padding: 2px;
+    }
+    .links {
+        padding: 1px;
+    }
+    .checked_link {
+        padding: 4px;
+    }
+    .logo img {
+        width: 80%;
+        position: relative;
+        left: -2px;
+        margin-top: -3px;
+    }
+    .logo {
+        width: 80px;
+    }
+    .nav {
+        top: 5px;
+        position: relative;
+        left: -40px;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .menu {
+        font-size: 2px;
+    }
+    li {
+        margin: 0px;
+        padding: 0px;
+    }
+    .links {
+        padding: 1px;
+    }
+    .checked_link {
+        padding: 3px;
+    }
+    .logo img {
+        width: 80%;
+        position: relative;
+        left: -2px;
+        margin-top: 1px;
+    }
+    .logo {
+        width: 60px;
+    }
+    .nav {
+        top: 6.5px;
+        position: relative;
+        left: -40px;
+    }
+    .links:hover {
+        padding: 10px 0px 10px 0px;
+    }
+}
